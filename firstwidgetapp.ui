@@ -34,7 +34,7 @@
      <string>Update</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Prompt">
+   <widget class="QLabel" name="prompt">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -47,7 +47,7 @@
      <string>Enter Your Message:</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="TextEntry">
+   <widget class="QPlainTextEdit" name="textEntry">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -57,7 +57,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="Display">
+   <widget class="QLabel" name="displayTarget">
     <property name="geometry">
      <rect>
       <x>240</x>

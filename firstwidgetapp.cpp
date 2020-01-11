@@ -13,3 +13,28 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_updateButton_clicked()
+{
+    QString message = ui->textEntry->toPlainText();
+
+    if (message.length() == 0)
+    {
+        message = "Enter a word into the text box above!";
+    }
+
+    ui->displayTarget->setText(message);
+}
+
+void MainWindow::on_foregroundRedButton_clicked()
+{
+    QPalette palette = ui->displayTarget->palette();
+    palette.setColor(QPalette::WindowText, Qt::red);
+
+    ui->displayTarget->setPalette(palette);
+}
+
+void MainWindow::on_foregroundBlueButton_clicked()
+{
+
+}

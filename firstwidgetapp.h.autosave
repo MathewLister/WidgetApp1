@@ -18,6 +18,10 @@ public:
 private slots:
     void on_updateButton_clicked();
 
+    void on_foregroundRedButton_clicked();
+    
+    void on_foregroundBlueButton_clicked();
+    
 private:
     Ui::MainWindow *ui;
 };
