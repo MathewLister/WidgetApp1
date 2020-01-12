@@ -60,3 +60,23 @@ void MainWindow::on_backgroundBlueButton_clicked()
     ui->displayTarget->setAutoFillBackground(true);
     ui->displayTarget->setPalette(palette);
 }
+
+void MainWindow::on_alignLeftButton_clicked()
+{
+    ui->displayTarget->setAlignment(Qt::AlignLeft);
+}
+
+void MainWindow::on_alignCenterButton_clicked()
+{
+    ui->displayTarget->setAlignment(Qt::AlignHCenter);
+}
+
+void MainWindow::on_alignRightButton_clicked()
+{
+    ui->displayTarget->setAlignment(Qt::AlignRight);
+}
+
+void MainWindow::on_endButton_clicked()
+{
+    QApplication::quit();
+}

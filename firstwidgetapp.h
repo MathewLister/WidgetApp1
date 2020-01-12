@@ -26,6 +26,14 @@ private slots:
 
     void on_backgroundBlueButton_clicked();
 
+    void on_alignLeftButton_clicked();
+
+    void on_alignCenterButton_clicked();
+
+    void on_alignRightButton_clicked();
+
+    void on_endButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
