@@ -3,5 +3,5 @@ First time in QT
 
 
 
-![First Widget Demo](https://recordit.co/2XbJOUrw4t)
+![First Widget Demo](https://recordit.co/2XbJOUrw4t.gif)
 
