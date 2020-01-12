@@ -3,5 +3,5 @@ First time in QT
 
 
 
-![First Widget Demo](documentation/demoGif.gif)
+![First Widget Demo](documentation/WidgetApp1ScreenCap.gif)
 
