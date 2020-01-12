@@ -34,7 +34,11 @@ void MainWindow::on_foregroundRedButton_clicked()
     ui->displayTarget->setPalette(palette);
 }
 
+
 void MainWindow::on_foregroundBlueButton_clicked()
 {
+    QPalette palette = ui->displayTarget->palette();
+    palette.setColor(QPalette::WindowText, Qt::blue);
 
+    ui->displayTarget->setPalette(palette);
 }

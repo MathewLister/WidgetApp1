@@ -34,14 +34,19 @@
      <string>Update</string>
     </property>
    </widget>
-   <widget class="QLabel" name="prompt">
+   <widget class="QLabel" name="promptEnterText">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>100</x>
       <y>30</y>
-      <width>171</width>
+      <width>191</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Enter Your Message:</string>
@@ -61,7 +66,7 @@
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>200</y>
+      <y>210</y>
       <width>511</width>
       <height>81</height>
      </rect>
@@ -79,25 +84,30 @@
      <string>Hi There!</string>
     </property>
    </widget>
-   <widget class="QLabel" name="prompt_2">
+   <widget class="QLabel" name="promptBackground">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>120</x>
       <y>120</y>
       <width>171</width>
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>Background:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="updateButton_2">
+   <widget class="QPushButton" name="backgroundRedButton">
     <property name="geometry">
      <rect>
       <x>310</x>
       <y>120</y>
-      <width>151</width>
+      <width>161</width>
       <height>61</height>
      </rect>
     </property>
@@ -112,12 +122,12 @@
      <string>Red</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="updateButton_3">
+   <widget class="QPushButton" name="backgroundBlueButton">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>560</x>
       <y>120</y>
-      <width>151</width>
+      <width>161</width>
       <height>61</height>
      </rect>
     </property>
@@ -132,25 +142,30 @@
      <string>Blue</string>
     </property>
    </widget>
-   <widget class="QLabel" name="prompt_3">
+   <widget class="QLabel" name="promptForeground">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>120</x>
       <y>310</y>
       <width>171</width>
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>Foreground:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="updateButton_4">
+   <widget class="QPushButton" name="foregroundBlueButton">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>560</x>
       <y>310</y>
-      <width>151</width>
+      <width>161</width>
       <height>61</height>
      </rect>
     </property>
@@ -165,12 +180,12 @@
      <string>Blue</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="updateButton_5">
+   <widget class="QPushButton" name="foregroundRedButton">
     <property name="geometry">
      <rect>
       <x>310</x>
       <y>310</y>
-      <width>151</width>
+      <width>161</width>
       <height>61</height>
      </rect>
     </property>
