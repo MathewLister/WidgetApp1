@@ -76,11 +76,11 @@ public:
         promptBackground->setFont(font1);
         backgroundRedButton = new QPushButton(centralwidget);
         backgroundRedButton->setObjectName(QString::fromUtf8("backgroundRedButton"));
-        backgroundRedButton->setGeometry(QRect(310, 120, 151, 61));
+        backgroundRedButton->setGeometry(QRect(310, 120, 161, 61));
         backgroundRedButton->setFont(font);
         backgroundBlueButton = new QPushButton(centralwidget);
         backgroundBlueButton->setObjectName(QString::fromUtf8("backgroundBlueButton"));
-        backgroundBlueButton->setGeometry(QRect(570, 120, 151, 61));
+        backgroundBlueButton->setGeometry(QRect(560, 120, 161, 61));
         backgroundBlueButton->setFont(font);
         promptForeground = new QLabel(centralwidget);
         promptForeground->setObjectName(QString::fromUtf8("promptForeground"));
@@ -88,11 +88,11 @@ public:
         promptForeground->setFont(font1);
         foregroundBlueButton = new QPushButton(centralwidget);
         foregroundBlueButton->setObjectName(QString::fromUtf8("foregroundBlueButton"));
-        foregroundBlueButton->setGeometry(QRect(570, 310, 151, 61));
+        foregroundBlueButton->setGeometry(QRect(560, 310, 161, 61));
         foregroundBlueButton->setFont(font);
         foregroundRedButton = new QPushButton(centralwidget);
         foregroundRedButton->setObjectName(QString::fromUtf8("foregroundRedButton"));
-        foregroundRedButton->setGeometry(QRect(310, 310, 151, 61));
+        foregroundRedButton->setGeometry(QRect(310, 310, 161, 61));
         foregroundRedButton->setFont(font);
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
@@ -100,7 +100,7 @@ public:
         MainWindow->setStatusBar(statusbar);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1063, 30));
+        menubar->setGeometry(QRect(0, 0, 1063, 29));
         MainWindow->setMenuBar(menubar);
 
         retranslateUi(MainWindow);

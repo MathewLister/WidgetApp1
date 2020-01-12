@@ -42,3 +42,21 @@ void MainWindow::on_foregroundBlueButton_clicked()
 
     ui->displayTarget->setPalette(palette);
 }
+
+void MainWindow::on_backgroundRedButton_clicked()
+{
+    QPalette palette = ui->displayTarget->palette();
+    palette.setColor(QPalette::Window, Qt::red);
+
+    ui->displayTarget->setAutoFillBackground(true);
+    ui->displayTarget->setPalette(palette);
+}
+
+void MainWindow::on_backgroundBlueButton_clicked()
+{
+    QPalette palette = ui->displayTarget->palette();
+    palette.setColor(QPalette::Window, Qt::blue);
+
+    ui->displayTarget->setAutoFillBackground(true);
+    ui->displayTarget->setPalette(palette);
+}

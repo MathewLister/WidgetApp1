@@ -22,6 +22,10 @@ private slots:
 
     void on_foregroundBlueButton_clicked();
 
+    void on_backgroundRedButton_clicked();
+
+    void on_backgroundBlueButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
