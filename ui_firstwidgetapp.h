@@ -33,14 +33,14 @@ public:
     QLabel *displayTarget;
     QLabel *promptBackground;
     QPushButton *backgroundRedButton;
-    QPushButton *backgroundBlueButton;
     QLabel *promptForeground;
-    QPushButton *foregroundBlueButton;
     QPushButton *foregroundRedButton;
     QPushButton *alignLeftButton;
     QPushButton *alignRightButton;
     QPushButton *alignCenterButton;
     QPushButton *endButton;
+    QPushButton *backgroundGreenButton;
+    QPushButton *foregroundGreenButton;
     QMenuBar *menubar;
     QMenu *menuText_Edit_Widget;
     QStatusBar *statusbar;
@@ -89,18 +89,10 @@ public:
         font3.setBold(false);
         font3.setWeight(50);
         backgroundRedButton->setFont(font3);
-        backgroundBlueButton = new QPushButton(centralwidget);
-        backgroundBlueButton->setObjectName(QString::fromUtf8("backgroundBlueButton"));
-        backgroundBlueButton->setGeometry(QRect(550, 120, 171, 61));
-        backgroundBlueButton->setFont(font3);
         promptForeground = new QLabel(centralwidget);
         promptForeground->setObjectName(QString::fromUtf8("promptForeground"));
         promptForeground->setGeometry(QRect(120, 310, 171, 51));
         promptForeground->setFont(font2);
-        foregroundBlueButton = new QPushButton(centralwidget);
-        foregroundBlueButton->setObjectName(QString::fromUtf8("foregroundBlueButton"));
-        foregroundBlueButton->setGeometry(QRect(550, 310, 171, 61));
-        foregroundBlueButton->setFont(font3);
         foregroundRedButton = new QPushButton(centralwidget);
         foregroundRedButton->setObjectName(QString::fromUtf8("foregroundRedButton"));
         foregroundRedButton->setGeometry(QRect(310, 310, 171, 61));
@@ -121,6 +113,14 @@ public:
         endButton->setObjectName(QString::fromUtf8("endButton"));
         endButton->setGeometry(QRect(880, 460, 161, 61));
         endButton->setFont(font);
+        backgroundGreenButton = new QPushButton(centralwidget);
+        backgroundGreenButton->setObjectName(QString::fromUtf8("backgroundGreenButton"));
+        backgroundGreenButton->setGeometry(QRect(570, 120, 171, 61));
+        backgroundGreenButton->setFont(font3);
+        foregroundGreenButton = new QPushButton(centralwidget);
+        foregroundGreenButton->setObjectName(QString::fromUtf8("foregroundGreenButton"));
+        foregroundGreenButton->setGeometry(QRect(570, 310, 171, 61));
+        foregroundGreenButton->setFont(font3);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -147,14 +147,14 @@ public:
         displayTarget->setText(QApplication::translate("MainWindow", "Hi There!", nullptr));
         promptBackground->setText(QApplication::translate("MainWindow", "Background:", nullptr));
         backgroundRedButton->setText(QApplication::translate("MainWindow", "Red", nullptr));
-        backgroundBlueButton->setText(QApplication::translate("MainWindow", "Blue", nullptr));
         promptForeground->setText(QApplication::translate("MainWindow", "Foreground:", nullptr));
-        foregroundBlueButton->setText(QApplication::translate("MainWindow", "Blue", nullptr));
         foregroundRedButton->setText(QApplication::translate("MainWindow", "Red", nullptr));
         alignLeftButton->setText(QApplication::translate("MainWindow", "Left", nullptr));
         alignRightButton->setText(QApplication::translate("MainWindow", "Right", nullptr));
         alignCenterButton->setText(QApplication::translate("MainWindow", "Center", nullptr));
         endButton->setText(QApplication::translate("MainWindow", "End", nullptr));
+        backgroundGreenButton->setText(QApplication::translate("MainWindow", "Green", nullptr));
+        foregroundGreenButton->setText(QApplication::translate("MainWindow", "Green", nullptr));
         menuText_Edit_Widget->setTitle(QApplication::translate("MainWindow", "Text Edit Widget", nullptr));
     } // retranslateUi
 

@@ -20,19 +20,19 @@ private slots:
 
     void on_foregroundRedButton_clicked();
 
-    void on_foregroundBlueButton_clicked();
-
     void on_backgroundRedButton_clicked();
 
-    void on_backgroundBlueButton_clicked();
-
-    void on_alignLeftButton_clicked();
+     void on_alignLeftButton_clicked();
 
     void on_alignCenterButton_clicked();
 
     void on_alignRightButton_clicked();
 
     void on_endButton_clicked();
+
+    void on_backgroundGreenButton_clicked();
+
+    void on_foregroundGreenButton_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -124,26 +124,6 @@
      <string>Red</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="backgroundBlueButton">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>120</y>
-      <width>171</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Blue</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="promptForeground">
     <property name="geometry">
      <rect>
@@ -160,26 +140,6 @@
     </property>
     <property name="text">
      <string>Foreground:</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="foregroundBlueButton">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>310</y>
-      <width>171</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Blue</string>
     </property>
    </widget>
    <widget class="QPushButton" name="foregroundRedButton">
@@ -280,6 +240,46 @@
     </property>
     <property name="text">
      <string>End</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backgroundGreenButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>120</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Green</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foregroundGreenButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>310</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Green</string>
     </property>
    </widget>
   </widget>

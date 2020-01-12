@@ -13,7 +13,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
+//updates display target window with text input
 void MainWindow::on_updateButton_clicked()
 {
     QString message = ui->textEntry->toPlainText();
@@ -26,6 +26,7 @@ void MainWindow::on_updateButton_clicked()
     ui->displayTarget->setText(message);
 }
 
+//changes forground to red
 void MainWindow::on_foregroundRedButton_clicked()
 {
     QPalette palette = ui->displayTarget->palette();
@@ -34,15 +35,26 @@ void MainWindow::on_foregroundRedButton_clicked()
     ui->displayTarget->setPalette(palette);
 }
 
-
-void MainWindow::on_foregroundBlueButton_clicked()
+//changes foreground to green
+void MainWindow::on_foregroundGreenButton_clicked()
 {
     QPalette palette = ui->displayTarget->palette();
-    palette.setColor(QPalette::WindowText, Qt::blue);
+        palette.setColor(QPalette::Window, Qt::green);
 
-    ui->displayTarget->setPalette(palette);
+        ui->displayTarget->setAutoFillBackground(true);
+        ui->displayTarget->setPalette(palette);
 }
 
+//changes background to green
+void MainWindow::on_backgroundGreenButton_clicked()
+{
+    QPalette palette = ui->displayTarget->palette();
+       palette.setColor(QPalette::WindowText, Qt::green);
+
+       ui->displayTarget->setPalette(palette);
+}
+
+//changes background to red
 void MainWindow::on_backgroundRedButton_clicked()
 {
     QPalette palette = ui->displayTarget->palette();
@@ -52,30 +64,25 @@ void MainWindow::on_backgroundRedButton_clicked()
     ui->displayTarget->setPalette(palette);
 }
 
-void MainWindow::on_backgroundBlueButton_clicked()
-{
-    QPalette palette = ui->displayTarget->palette();
-    palette.setColor(QPalette::Window, Qt::blue);
-
-    ui->displayTarget->setAutoFillBackground(true);
-    ui->displayTarget->setPalette(palette);
-}
-
+//left alignment of text
 void MainWindow::on_alignLeftButton_clicked()
 {
     ui->displayTarget->setAlignment(Qt::AlignLeft);
 }
 
+//center alignment of text
 void MainWindow::on_alignCenterButton_clicked()
 {
     ui->displayTarget->setAlignment(Qt::AlignHCenter);
 }
 
+//center alignment of text
 void MainWindow::on_alignRightButton_clicked()
 {
     ui->displayTarget->setAlignment(Qt::AlignRight);
 }
 
+//exits app
 void MainWindow::on_endButton_clicked()
 {
     QApplication::quit();

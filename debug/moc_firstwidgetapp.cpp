@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[11];
-    char stringdata0[267];
+    char stringdata0[269];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,24 +35,24 @@ QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
 QT_MOC_LITERAL(1, 11, 23), // "on_updateButton_clicked"
 QT_MOC_LITERAL(2, 35, 0), // ""
 QT_MOC_LITERAL(3, 36, 30), // "on_foregroundRedButton_clicked"
-QT_MOC_LITERAL(4, 67, 31), // "on_foregroundBlueButton_clicked"
-QT_MOC_LITERAL(5, 99, 30), // "on_backgroundRedButton_clicked"
-QT_MOC_LITERAL(6, 130, 31), // "on_backgroundBlueButton_clicked"
-QT_MOC_LITERAL(7, 162, 26), // "on_alignLeftButton_clicked"
-QT_MOC_LITERAL(8, 189, 28), // "on_alignCenterButton_clicked"
-QT_MOC_LITERAL(9, 218, 27), // "on_alignRightButton_clicked"
-QT_MOC_LITERAL(10, 246, 20) // "on_endButton_clicked"
+QT_MOC_LITERAL(4, 67, 30), // "on_backgroundRedButton_clicked"
+QT_MOC_LITERAL(5, 98, 26), // "on_alignLeftButton_clicked"
+QT_MOC_LITERAL(6, 125, 28), // "on_alignCenterButton_clicked"
+QT_MOC_LITERAL(7, 154, 27), // "on_alignRightButton_clicked"
+QT_MOC_LITERAL(8, 182, 20), // "on_endButton_clicked"
+QT_MOC_LITERAL(9, 203, 32), // "on_backgroundGreenButton_clicked"
+QT_MOC_LITERAL(10, 236, 32) // "on_foregroundGreenButton_clicked"
 
     },
     "MainWindow\0on_updateButton_clicked\0\0"
     "on_foregroundRedButton_clicked\0"
-    "on_foregroundBlueButton_clicked\0"
     "on_backgroundRedButton_clicked\0"
-    "on_backgroundBlueButton_clicked\0"
     "on_alignLeftButton_clicked\0"
     "on_alignCenterButton_clicked\0"
     "on_alignRightButton_clicked\0"
-    "on_endButton_clicked"
+    "on_endButton_clicked\0"
+    "on_backgroundGreenButton_clicked\0"
+    "on_foregroundGreenButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -102,13 +102,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->on_updateButton_clicked(); break;
         case 1: _t->on_foregroundRedButton_clicked(); break;
-        case 2: _t->on_foregroundBlueButton_clicked(); break;
-        case 3: _t->on_backgroundRedButton_clicked(); break;
-        case 4: _t->on_backgroundBlueButton_clicked(); break;
-        case 5: _t->on_alignLeftButton_clicked(); break;
-        case 6: _t->on_alignCenterButton_clicked(); break;
-        case 7: _t->on_alignRightButton_clicked(); break;
-        case 8: _t->on_endButton_clicked(); break;
+        case 2: _t->on_backgroundRedButton_clicked(); break;
+        case 3: _t->on_alignLeftButton_clicked(); break;
+        case 4: _t->on_alignCenterButton_clicked(); break;
+        case 5: _t->on_alignRightButton_clicked(); break;
+        case 6: _t->on_endButton_clicked(); break;
+        case 7: _t->on_backgroundGreenButton_clicked(); break;
+        case 8: _t->on_foregroundGreenButton_clicked(); break;
         default: ;
         }
     }
