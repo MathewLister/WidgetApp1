@@ -107,15 +107,15 @@ public:
         foregroundRedButton->setFont(font3);
         alignLeftButton = new QPushButton(centralwidget);
         alignLeftButton->setObjectName(QString::fromUtf8("alignLeftButton"));
-        alignLeftButton->setGeometry(QRect(170, 420, 161, 61));
+        alignLeftButton->setGeometry(QRect(210, 420, 161, 61));
         alignLeftButton->setFont(font3);
         alignRightButton = new QPushButton(centralwidget);
         alignRightButton->setObjectName(QString::fromUtf8("alignRightButton"));
-        alignRightButton->setGeometry(QRect(620, 420, 161, 61));
+        alignRightButton->setGeometry(QRect(660, 420, 161, 61));
         alignRightButton->setFont(font3);
         alignCenterButton = new QPushButton(centralwidget);
         alignCenterButton->setObjectName(QString::fromUtf8("alignCenterButton"));
-        alignCenterButton->setGeometry(QRect(400, 420, 161, 61));
+        alignCenterButton->setGeometry(QRect(440, 420, 161, 61));
         alignCenterButton->setFont(font3);
         endButton = new QPushButton(centralwidget);
         endButton->setObjectName(QString::fromUtf8("endButton"));

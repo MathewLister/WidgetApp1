@@ -205,7 +205,7 @@
    <widget class="QPushButton" name="alignLeftButton">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>210</x>
       <y>420</y>
       <width>161</width>
       <height>61</height>
@@ -225,7 +225,7 @@
    <widget class="QPushButton" name="alignRightButton">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>660</x>
       <y>420</y>
       <width>161</width>
       <height>61</height>
@@ -245,7 +245,7 @@
    <widget class="QPushButton" name="alignCenterButton">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>440</x>
       <y>420</y>
       <width>161</width>
       <height>61</height>
